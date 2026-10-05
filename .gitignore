@@ -1,0 +1,12 @@
+# Compiled clients (`make` / `make TLS=1` inside full/ or compact/).
+# No leading slash: the binary is built inside each edition's directory.
+# `tinyirc` never matches `tinyirc.c` or the `tinyirc-*.patch` files.
+tinyirc
+
+# Python bytecode left behind by `make test`
+__pycache__/
+*.pyc
+
+# OS and editor noise
+.DS_Store
+*.swp
